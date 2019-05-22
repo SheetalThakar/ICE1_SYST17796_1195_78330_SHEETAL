@@ -53,7 +53,10 @@ public class CardTrick
                System.out.println("card do not match");
                break;
             }
-
+Card luckyCard=new Card();
+            luckyCard.setValue(7);
+            luckyCard.setSuit("Hearts");
+            System.out.println(luckyCard.getValue()+" "+luckyCard.getSuit());
          }
 
          //insert code to ask the user for Card value and suit, create their card
