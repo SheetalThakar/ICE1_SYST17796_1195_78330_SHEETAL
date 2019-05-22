@@ -54,7 +54,12 @@ public class CardTrick {
           {System.out.println("Card isn't here !!");
         
        }
-        
+        Card lucky_card =new Card();
+            lucky_card.setSuit("heart");
+            lucky_card.getValue(7);
+            
+            
+            
         }
     }
 }
