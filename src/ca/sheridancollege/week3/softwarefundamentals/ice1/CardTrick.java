@@ -20,6 +20,9 @@ public class CardTrick {
     {     
        
         Card[] magicHand = new Card[7];
+        Card luckyCard = new Card();   
+        luckyCard.setValue(2);
+        luckyCard.setSuit("Hearts");
         
         for (int i=0; i<magicHand.length; i++)
         {
@@ -66,7 +69,7 @@ public class CardTrick {
             System.out.println("Card is not found in magicHand");
         }
         
-        
+         System.out.println("luckyCard" + luckyCard.getValue() + " -" + luckyCard.getSuit()); 
         
         
     }
