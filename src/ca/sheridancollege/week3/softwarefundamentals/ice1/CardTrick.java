@@ -19,6 +19,9 @@ public class CardTrick {
     public static void main(String[] args)
     {
         Card[] magicHand = new Card[7];
+        Card luckyCard=new Card();
+        luckycard.setValue(1);
+        luckycard.setSuit("spade");
       
         
                         //c.setValue(insert call to random number generator here)
