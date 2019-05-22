@@ -53,6 +53,10 @@ public class CardTrick {
             else
                 System.out.println("The card is not present in magic hand.");
         }
+        
+        Card luckyCard=new Card();
+        luckyCard.setValue(7);
+        luckyCard.setSuit("Hearts");
         //insert code to ask the user for Card value and suit, create their card
         // and search magicHand here
         //Then report the result here
