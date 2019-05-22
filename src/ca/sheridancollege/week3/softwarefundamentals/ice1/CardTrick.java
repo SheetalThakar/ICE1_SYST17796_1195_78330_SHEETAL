@@ -20,8 +20,8 @@ public class CardTrick {
     {
         Card[] magicHand = new Card[7];
         Card luckyCard=new Card();
-        luckycard.setValue(1);
-        luckycard.setSuit("spade");
+        luckyCard.setValue(1);
+        luckyCard.setSuit("spade");
       
         
                         //c.setValue(insert call to random number generator here)
@@ -48,8 +48,8 @@ public class CardTrick {
             
               Scanner input=new Scanner(System.in);
          System.out.println("Choose any card:\n Enter the suit first and then value. ");
-           String valueSuit=input.next();
-           int valueUser=input.nextInt();
+           String valueSuit=luckyCard.getSuit();
+           int valueUser=luckyCard.getValue();
            Card c =new Card();
             
            for (int j = 0; j < magicHand.length; j++) 
