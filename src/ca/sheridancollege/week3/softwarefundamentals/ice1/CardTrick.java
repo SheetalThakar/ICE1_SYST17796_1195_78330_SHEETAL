@@ -72,7 +72,7 @@ public class CardTrick {
             Card luckyCard = new Card();
             luckyCard.setValue(5);
             luckyCard.setSuit("Clubs");
-            System.out.println(luckyCard.getValue()+" "+luckyCard.getsuit());
+            System.out.println(luckyCard.getValue()+" "+luckyCard.getSuit());
         
         }
     }
