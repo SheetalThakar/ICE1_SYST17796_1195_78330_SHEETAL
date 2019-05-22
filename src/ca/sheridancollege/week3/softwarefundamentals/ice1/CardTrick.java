@@ -67,6 +67,8 @@ public class CardTrick {
        else
            System.out.println("The given card is available in magic hand");
         //Then report the result here
+        
+        System.out.println("The suit of lucky card is "+luckyCard.getSuit() +" and value of the lucky card is "+luckyCard.getValue());
     }
     
 }
