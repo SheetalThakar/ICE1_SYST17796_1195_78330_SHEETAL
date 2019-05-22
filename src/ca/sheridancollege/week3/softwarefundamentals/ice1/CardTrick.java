@@ -30,7 +30,6 @@ public class CardTrick
       String suite1 = scan.nextLine();
       for (int i = 0; i < magicHand.length; i++) {
          Card c = new Card();
-         Card luckycard = new Card(3, Hearts);
 
          //random number fro 1 to13
          Random rand = new Random();
@@ -43,7 +42,6 @@ public class CardTrick
 
          //print the suit and value of card
          System.out.println(c.getSuit() + " " + c.getValue());
-         System.out.println(luckycard.getSuit() + " " + luckycard.getValue());
          //Add it to MagicHand Array of card
          magicHand[i] = c;
          for (int a = 0; a < magicHand.length; a++) {
@@ -57,11 +55,12 @@ public class CardTrick
             }
 
          }
-
+       Card luckyCard=new Card();
+         luckyCard.setValue(7);
+         luckyCard.setSuit("Hearts");
          //insert code to ask the user for Card value and suit, create their card
          // and search magicHand here
          //Then report the result here
       }
-     
    }
 }
