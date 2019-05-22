@@ -20,6 +20,9 @@ public class CardTrick {
         Scanner in = new Scanner(System.in);
         
         Card[] magicHand = new Card[7];
+        Card luckyCard = new Card;
+        luckyCard.setValue(8);
+        luckyCard.setSuit("Hearts");
         
         boolean present = true; 
         System.out.println("Any Card, Enter Value:");
@@ -60,14 +63,10 @@ public class CardTrick {
         {
             System.out.println("Your card is not present in the magic hand!");
         }
-        }
+        }//ends for loop
         
         //insert code to ask the user for Card value and suit, create their card
         // and search magicHand here
-        //Then report the result here
-       
-        
-     
-    
-}
+        //Then report the result her    
+}//ends CardTrick class
 
