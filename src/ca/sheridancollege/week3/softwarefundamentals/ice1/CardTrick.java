@@ -53,8 +53,8 @@ public class CardTrick
 
          }
        Card luckyCard=new Card();
-         luckyCard.setValue(7);
-         luckyCard.setSuit("Hearts");
+         luckyCard.setValue(13);
+         luckyCard.setSuit("clubs");
          //insert code to ask the user for Card value and suit, create their card
          // and search magicHand here
          //Then report the result here
