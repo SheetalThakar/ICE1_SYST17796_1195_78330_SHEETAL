@@ -25,6 +25,9 @@ public class CardTrick {
         int suit;
         boolean check = false;
         Card[] magicHand = new Card[7];
+        Card luckyCard = new Card();
+        final luckyCard.setValue = 1;
+        final luckyCard.setSuit=2;
         
         for (int i=0; i<magicHand.length; i++)
         {
@@ -59,6 +62,21 @@ public class CardTrick {
             System.out.println("card not found");
         }
         
+        
+        System.out.println("Create a card");
+        System.out.println("Enter Suit");
+        
+        in = new Scanner(System.in);
+        String uSuit = in.nextLine();
+        luckyCard.setSuit(uSuit);
+        
+        in = new Scanner(System.in);
+        
+        System.out.println("Enter Value");
+        uValue = in.nextInt();
+        luckyCard.setValue(uValue);
+        
+        System.out.println("Your card is" + luckyCard.getSuit() + " " + luckyCard.getValue());
         //insert code to ask the user for Card value and suit, create their card
         // and search magicHand here
         //Then report the result here
