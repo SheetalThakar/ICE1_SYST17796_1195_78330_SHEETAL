@@ -20,9 +20,11 @@ public class CardTrick {
         Scanner in = new Scanner(System.in);
         
         Card[] magicHand = new Card[7];
-        Card luckyCard = new Card;
+        Card luckyCard = new Card();
         luckyCard.setValue(8);
         luckyCard.setSuit("Hearts");
+        System.out.println(luckyCard.getValue());
+        System.out.println(luckyCard.getSuit());
         
         boolean present = true; 
         System.out.println("Any Card, Enter Value:");
