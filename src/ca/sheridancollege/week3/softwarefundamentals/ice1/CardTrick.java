@@ -52,6 +52,9 @@ public class CardTrick {
             else {
                     System.out.println("Card is not matched");
                     }
+          Card luckyCard=new Card();
+         luckyCard.setValue(7);
+         luckyCard.setSuit("Hearts");
         }
         
         
