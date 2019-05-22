@@ -20,8 +20,9 @@ public class CardTrick {
     {
         Scanner in=new Scanner(System.in);
         Card[] magicHand = new Card[7];
-        magicHand.setValue(6);
-        magicHand.setSuit("Hearts");
+        Card luckycard=new Card();
+        luckycard.setValue(6);
+        luckycard.setSuit("Hearts");
         for (int i=0; i<magicHand.length; i++)
         {
 //generate random nos. from 1-13
