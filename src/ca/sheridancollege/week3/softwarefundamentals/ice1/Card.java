@@ -48,6 +48,13 @@ public class Card {
         this.value = value;
     }
    
-   
+    public String toString () {
+        return ("[Suit: " + suit + ", Value: " + value + "]");
+    }
+    
+    public boolean equals (Object obj) {
+        Card c = (Card) obj;
+        return (this.toString().equals(c.toString()));
+    }
     
 }
