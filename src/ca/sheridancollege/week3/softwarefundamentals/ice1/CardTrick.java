@@ -17,7 +17,7 @@ import java.util.Scanner;
 public class CardTrick {
     
     public static void main(String[] args)
-    {     
+    {       
        
         Card[] magicHand = new Card[7];
         Card luckyCard = new Card();   
