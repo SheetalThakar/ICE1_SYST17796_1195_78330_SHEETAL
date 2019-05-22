@@ -33,6 +33,10 @@ public class CardTrick {
         String user_suit = "N/A";
         boolean areCardsEqual = false;
         
+        Card luckyCard = new Card();
+        luckyCard.setSuit("Spades");
+        luckyCard.setValue(13);
+        
         for (int i=0; i < magicHand.length; i++) {
             Card c = new Card();
             c.setValue (rand.nextInt(13) + 1);
