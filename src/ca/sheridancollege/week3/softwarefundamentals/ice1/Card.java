@@ -50,7 +50,7 @@ public class Card {
     }
    
     public String toString () {
-        return ("[Suit: " + suit + ", Value: " + value + "]");
+        return ("[Suit: " + getSuit() + ", Value: " + getValue() + "]");
     }
     
     public boolean equals (Object obj) {
