@@ -22,7 +22,7 @@ public class CardTrick {
         Card[] magicHand = new Card[7];
         Card luckyCard = new CArd();
         luckyCard.setValue(4);
-        luckyCard.setValue("hearts");
+        luckyCard.setSuit("hearts");
         
         for (int i=0; i<magicHand.length; i++)
         {
@@ -57,7 +57,7 @@ public class CardTrick {
               System.out.println("user card is not present in the magic hand");
           }
          
-             System.out.println(" luckyCard" + luckyCard.getValue() + " " + luckyCard.getValue());  
+             System.out.println(" luckyCard" + luckyCard.getValue() + " " + luckyCard.getSuit());  
         }
         // and search magicHand here
         //Then report the result here
