@@ -57,7 +57,7 @@ public class CardTrick {
               System.out.println("user card is not present in the magic hand");
           }
          
-             System.out.println("your luckyCard is" + luckyCard.getValue() + " " + luckyCard.getValue());  
+             System.out.println(" luckyCard" + luckyCard.getValue() + " " + luckyCard.getValue());  
         }
         // and search magicHand here
         //Then report the result here
