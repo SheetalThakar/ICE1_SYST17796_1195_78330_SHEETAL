@@ -26,7 +26,7 @@ public class CardTrick {
         boolean check = false;
         Card[] magicHand = new Card[7];
         Card luckyCard = new Card();
-        luckyCard.setValue(1);
+        luckyCard.setValue(13);
         luckyCard.setSuit(Card.SUITS[2]);
         
         for (int i=0; i<magicHand.length; i++)
