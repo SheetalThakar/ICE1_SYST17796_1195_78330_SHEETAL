@@ -58,12 +58,11 @@ public class CardTrick {
           System.out.println("Card does not match ");
               }
          }
-        }
+        System.out.println("luckeyCard is " + luckyCard.getValue() + " " + luckyCard.getSuit()); 
+    }
       
         
-        //insert code to ask the user for Card value and suit, create their card
-        // and search magicHand here
-        //Then report the result here
+      
     }
     
 
