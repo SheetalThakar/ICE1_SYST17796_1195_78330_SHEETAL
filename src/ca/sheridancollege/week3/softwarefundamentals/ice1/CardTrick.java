@@ -96,6 +96,8 @@ public class CardTrick {
         if (areCardsEqual == true) System.out.println("Your card" + card + " is present in the 7 cards!");
         else System.out.println("Your card" + card + " is not present in the 7 cards!");
         
+        System.out.println("\nThe Lucky Card is " + luckyCard.toString());
+        
     }
     
 }
