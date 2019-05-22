@@ -25,6 +25,8 @@ public class CardTrick {
         luckyCard.setSuit("Diamonds");
         luckyCard.setValue(7);
         
+        System.out.println(luckyCard.getSuit() + " " + luckyCard.getValue());
+        
         for (int i=0; i<magicHand.length; i++)
         {
             Card c = new Card();
