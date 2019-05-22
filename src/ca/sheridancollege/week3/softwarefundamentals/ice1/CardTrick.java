@@ -12,6 +12,8 @@ import java.util.Scanner;
  * for the match to the user's card. To be used as starting code in ICE 1
  *
  * @author sheetal
+ * @modifier Jasleen Kaur Chahal
+ * Student ID-991548892
  */
 public class CardTrick
 {
