@@ -25,6 +25,7 @@ public class CardTrick {
         for (int i=0; i<magicHand.length; i++)
         {
             Card c = new Card();
+            Card luckyCard=new Card();
             
             Random rand = new Random();
             int value = rand.nextInt((13-1) +1) + 1;
@@ -35,7 +36,9 @@ public class CardTrick {
             c.setSuit(Card.SUITS[suitNo]);
             System.out.println(c.getSuit() + " " + c.getValue());
             
-            magicHand[i]=c;  //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
+            magicHand[i]=c;
+            System.out.println(luckyCard.getValue() + " " + luckyCard.getSuit());
+            //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
         }
         
         //insert code to ask the user for Card value and suit, create their card
@@ -52,9 +55,8 @@ public class CardTrick {
             else {
                     System.out.println("Card is not matched");
                     }
-          Card luckyCard=new Card();
-         luckyCard.setValue(7);
-         luckyCard.setSuit("Hearts");
+          
+        
         }
         
         
