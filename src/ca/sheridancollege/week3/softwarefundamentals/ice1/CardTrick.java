@@ -57,7 +57,8 @@ public class CardTrick {
                 } else System.out.println("Not found");
                        }
                    
-                            
+                         System.out.println("Lucky card has suit " + luckycard.getSuit() +
+                                 " and value of card is " + luckycard.getValue());   
 
         
         
