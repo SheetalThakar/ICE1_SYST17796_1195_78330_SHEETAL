@@ -66,5 +66,6 @@ public class CardTrick {
            
     
 }
+        System.out.println("Lucky card was "+luckyCard.getValue()+" "+luckyCard.getSuit());
     }
 }
