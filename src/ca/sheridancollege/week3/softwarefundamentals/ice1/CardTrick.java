@@ -52,7 +52,9 @@ public class CardTrick {
             else{ 
               System.out.println("The card is not present in magic hand ");
                     }                     
-              
+              Card LuckyCard = new Card();
+                LuckyCard.setValue(7);
+                LuckyCard.setSuit("Diamonds");
             } 
     }
         }
