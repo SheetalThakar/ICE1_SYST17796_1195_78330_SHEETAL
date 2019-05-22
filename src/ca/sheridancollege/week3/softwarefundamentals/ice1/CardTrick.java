@@ -68,6 +68,9 @@ public class CardTrick {
         if(!flag){
             System.out.println("Your Card is NOT in the HAND");
         }
+        
+        
+        System.out.println("The lucky card was: " + luckyCard.getValue() + " of " + luckyCard.getSuit());
         //Then report the result here
     }
     
